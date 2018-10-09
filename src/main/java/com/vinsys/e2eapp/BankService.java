@@ -16,4 +16,10 @@ public class BankService {
 		logger.info("you are opening a account with " + accountid);
 		return "You Opened a Acccount Successfully";
 	}
+
+	@RequestMapping(method = RequestMethod.GET, path = "closeaccount")
+	public String closeaccount(@RequestParam(name = "accountid") String accountid) {
+		logger.info("you are closing a account with " + accountid);
+		return "You closed a Acccount Successfully";
+	}
 }
