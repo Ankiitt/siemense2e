@@ -43,8 +43,8 @@
 	</dependencies>
 	<distributionManagement>
 		<snapshotRepository>
-			<id>nexus-snapshots</id>
-			<url>http://192.168.237.128:8081/repository/myid/</url>
+			<id>my-id</id>
+			<url>http://192.168.237.128:8081/nexus/content/repositories/myid/</url>
 		</snapshotRepository>
 	</distributionManagement>
 	<build>
