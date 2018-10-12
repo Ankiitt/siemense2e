@@ -6,7 +6,7 @@
 
 	<groupId>com.vinsys</groupId>
 	<artifactId>e2eapp</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.1</version>
 	<packaging>jar</packaging>
 
 	<name>e2eapp</name>
@@ -42,10 +42,10 @@
 		</dependency>
 	</dependencies>
 	<distributionManagement>
-		<snapshotRepository>
+		<repository>
 			<id>myid</id>
 			<url>http://192.168.237.128:8081/nexus/content/repositories/myid/</url>
-		</snapshotRepository>
+		</repository>
 	</distributionManagement>
 	<build>
 		<plugins>
