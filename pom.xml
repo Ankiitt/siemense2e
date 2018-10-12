@@ -43,7 +43,7 @@
 	</dependencies>
 	<distributionManagement>
 		<snapshotRepository>
-			<id>my-id</id>
+			<id>myid</id>
 			<url>http://192.168.237.128:8081/nexus/content/repositories/myid/</url>
 		</snapshotRepository>
 	</distributionManagement>
